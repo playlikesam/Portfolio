@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Fira+Sans:wght@400;600&family=Handjet:wght@600&family=Lato&family=Poppins:wght@500&family=Roboto&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Poppins:wght@500&family=Source+Code+Pro:wght@500&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+    position: absolute;
+    background-image: url('/bg.jpg');
+    font-family: 'Poppins';
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style : none;
+    font-size: 20px;
+    padding: 33px 20px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 100vw;
+    height: 100vh;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infocontainer {
+    display: flex;
+    /* background-color: green; */
+    height: 0;
+    width: 86vw;
+    margin: 178px auto;
+    justify-content: left;
+}
+
+.devinfo {
+    font-size: 20px;
+    padding-top: 5vh;
+    width: auto;
+    color: white;
+}
+
+.hello{
+    font-size: 1.1em;
+    padding-left: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.moreabout{
+    font-size: 0.8em;
+    font-family: 'Poppins';
+    padding-top: 12px;
+    padding-left: 4px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.buttons{
+    margin-top: 34px;
+    font-size: 16px;
+}
+
+.buttons button{
+    padding: 9px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    margin: 0px 12px 0px 0px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.buttons button:hover{
+    
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 0px #ffffff;
+}
+
+
+/* -----------Contact.html/* -----------*/
+
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: 'Poppins';
+    margin: 0 88px;
+}
+
+.contactform h1 {
+    font-family: 'Poppins';
+    text-align: left;
+    font-size: 25px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0px 1px;
+}
+
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+#isclient.form-check-input {
+    width: 36px;
+    margin: 2px;
+    margin-left: -10px;
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: white;
+}
+
+.form-label {
+    font-weight: 300;
+    color: white;
+}
+
+button.btn.btn-primary {
+    padding: 8px 20px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(28, 28, 29);
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin: 0px 12px 0px 0px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+button.btn.btn-primary:hover{
+    box-shadow: 5px 5px 0px #ffffff;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+
+/* -----------Blog.html/* -----------*/
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Poppins';
+}
+
+.blogcontainer{
+    margin: 80px -100px 0 5px;
+}
+
+h1{
+    font-family: 'Poppins';
+    margin: 23px;
+    color: white;
+}
+h2{
+    color: white;
+    padding-left: 11px;
+}
+p{
+    color: white;
+    width: 190vh;
+    padding: 8px 12px 8px 12px;
+    text-align: justify;
+}
+/*------------------------intro.html------------------*/
+.intro h2{
+    font-family: 'Poppins';
+    margin: 12px;
+    color: white;
+}
+
+.intro p { 
+    font-family: 'Poppins'; 
+    margin: 12px; 
+    color: white; 
+}
+
+.skillcontainer{
+    padding: 8px 0 0 25px;
+}
+
+.skillitem{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+
+
+.hundered{         /*hundered*/
+    width: 265px;
+    margin-left: 72px;
+    background-color: rgb(255, 255, 255);
+}
+
+.s5{               /*seventy five*/
+    width: 180px;
+    margin-left: 82px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fifty{               /*fifty*/
+    width: 115px;
+    margin-left: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.t5{               /*twenty five*/
+    width: 75px;
+    margin-left: 69px;
+    background-color: rgb(255, 255, 255);
+}
+
+.intro {
+    margin: 65px 8px 0 12px;
+}
+
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 150px;
+}
+
+@media (max-width: 1280px) {
+    *{
+        /*background-color: rgb(252, 146, 142);*/
+    }
+    /*.sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+}
